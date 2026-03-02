@@ -51,8 +51,9 @@ def obter_roteiro_otimizado(arquivo_csv, ponto_partida):
 if __name__ == "__main__":
     # Define o ponto de partida (pode ser um endereço ou coordenadas)
     PONTO_INICIAL = input("📍 Digite o endereço de partida [Rua,número,bairro,cidade-estado]: ")
-
-    resultado = obter_roteiro_otimizado('clientes_teste.csv', PONTO_INICIAL)
+    arquivo = input("📂 Digite o nome do arquivo CSV com os clientes (ex: clientes.csv): ")
+    
+    resultado = obter_roteiro_otimizado(arquivo, PONTO_INICIAL)
 
     print("\n📍 ORDEM FINAL DO ROTEIRO:")
     for i, c in enumerate(resultado, 1):

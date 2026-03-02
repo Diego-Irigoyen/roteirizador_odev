@@ -13,4 +13,4 @@ Projeto desenvolvido para otimização de rotas de atendimento técnico, utiliza
 * Pandas & Python-Dotenv
 
 ---
-*Desenvolvido durante meus estudos de ADS e Cybersecurity.*
+*Desenvolvido por sentir a necessidade de uma ferramenta gratuita que pudesse organizar meus roteiros de forma simples.*
